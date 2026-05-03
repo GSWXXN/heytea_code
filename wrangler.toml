@@ -1,0 +1,4 @@
+name = "heytea-code"
+pages_build_output_dir = "."
+compatibility_date = "2025-02-20"
+
