@@ -72,4 +72,4 @@ function buildCards() {
 
 buildCards();
 
-setInterval(buildCards, 60 * 1000);
+setInterval(buildCards, 5 * 60 * 1000);

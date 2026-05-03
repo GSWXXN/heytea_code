@@ -12,6 +12,7 @@
 
 * {
   box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
 }
 
 html,
@@ -25,6 +26,8 @@ body {
   background: #ffffff;
   color: var(--ink);
   overflow-x: hidden;
+  user-select: none;
+  -webkit-user-select: none;
 }
 
 body::after {
