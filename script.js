@@ -9,7 +9,7 @@ const cardDefinitions = [
   },
   {
     note: '开启超级权限',
-    getCode: () => 'ht0101',
+    getCode: () => 'ht391',
   },
   {
     note: '发送时间密码日志',
