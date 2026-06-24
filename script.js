@@ -1,18 +1,18 @@
 const cardDefinitions = [
   {
-    note: '关闭杯杯检测',
+    note: 'Cup-by-Cup Detection (Skip counting down)',
     getCode: () => 'ht009',
   },
   {
-    note: '开启手动出茶',
+    note: 'Manual tea dispensing',
     getCode: (date) => `ht${String(date.getHours() * 7 + date.getDate() * 3).padStart(3, '0')}`,
   },
   {
-    note: '开启超级权限',
+    note: 'Super Admin (Skip weighing)',
     getCode: () => 'ht391',
   },
   {
-    note: '发送时间密码日志',
+    note: 'Send a log',
     getCode: (date) => `ht${String(((43 - (date.getMonth() + 1)) - date.getDate()) * 3).padStart(3, '0')}`,
   },
 ];
